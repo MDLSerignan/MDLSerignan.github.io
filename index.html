@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/MDL.jpg">
     <title>MDL de Sérignan</title>
   </head>
   <body id="body">
@@ -25,10 +26,53 @@
     <header>
       <img src="img/banner/banner.png">
     </header>
+    <section id="memberbody">
 
-    <section>
+    </section>
+    <br>
+    <section class="presentation-section">
       <div class="Message">
-        Hi there !
+      </div>
+      <div id="whoweare">
+        <div class="Subtitle">Qui sommes Nous ?</div><br><br>
+        <div class="Explaination">
+          Nous sommes une association, la 
+          <txt class="WordUp">Maison Des Lycéens</txt> !<br> 
+          Plus communément appelée la <txt class="WordUp">MDL</txt><br>
+          Nous sommes un association faite pour les <txt class="WordUp">élèves</txt><br>
+          dirigée par les <txt class="WordUp">élèves</txt>.
+        </div>
+        <div class="Illustration"><img src="img/MDL_Square.png" alt=""></div>
+        <br><br>
+      </div>
+
+      <div id="whereweare">
+        <div class="Subtitle">Où sommes nous</div>
+        <div class="Explaination">
+          Nous sommes actuellement au <txt>Lycée Marc Bloch</txt><br><br>
+          1 avenue Georges Frêche <br>
+            34410 Sérignan  <br>
+            Téléphone : 04-67-35-35-10 <br> <br>
+            - Transports publics : Ligne 16
+            <a id="link" href="http://www.beziers-transports.com/" target="_blank"><br>Voir fiche horaires</a>
+            <br><br>
+            - Transports scolaires
+            <a id="link" href="http://www.herault-transport.fr/horaire_scolaire.php" target="_blank"><br>Voir fiche horaires</a>
+        </div>
+        <div class="Illustration">
+        </div>
+      </div>
+
+      <div id="ouractions">
+        <div class="Subtitle">Nos actions</div>
+        <div class="Explaination">
+          Nos actions de l'année 2020 - 2021 ont étés:
+        </div>
+        <div class="Illustration"></div>
+      </div>
+
+      <div id="contact">
+        <div class="Subtitle">Contact</div>
       </div>
     </section>
     <section id="JSsection">
@@ -37,23 +81,16 @@
       </div>
     </section>
     <footer>
-      <button onclick="var LoginBody = document.getElementById('login-div');LoginBody.style.width = '100%';LoginBody.style.marginLeft = '0';" class="btn">Sign In</button> | <button onclick="MemberSignUp()" class="btn"> Sign Up</button> <br>
+      <button onclick="OpenLoginForm()" class="btn">Sign In</button> | <button onclick="OpenSignUpForm()" class="btn"> Sign Up</button> <br>
       &#xA9;MDL Lycée Marc Bloch 2020 - 2021 | All rights reserved<br>
     </footer>
   </body>
   <div class="login" id="login-div">
     <div id="login-divform" class="loginform">
       <br>
-        <div class="loginformtext">
-          <label for="usernameid">Username :</label>
-          <input type="text" name="usrnme" id="usernameid"><br>
-          <label for="passwordid">Password :</label>
-          <input type="password" name="password" id="passwordid">
-          <br>
-          <button class="btn sbmbtn" onclick="Memberlogin()">Se connecter</button>
-        </div>
     </div>
   </div>
   <script src="js/changestyle.js" charset="utf-8"></script>
   <script src="js/script.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </html>

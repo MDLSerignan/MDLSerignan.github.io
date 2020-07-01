@@ -1,0 +1,32 @@
+#whoweare {
+    background: #1a1a1a;
+    height: 400px;
+}
+#whereweare {
+    background: #323232;
+    height: 400px;
+}
+#ouractions{
+    background: #1a1a1a;
+    height: 400px;
+}
+#contact{
+    background: #323232;
+    height: 200px;
+}
+.Subtitle {
+    font-size: 35px;
+    user-select: none;
+}
+
+.WordUp{
+    font-size: 30px;
+}
+
+.Explaination {
+    float: left;
+    font-size: 24px;
+}
+.Illustration{
+    float: right;
+}

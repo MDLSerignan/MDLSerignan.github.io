@@ -1,3 +1,5 @@
+@import "presentation.css";
+
 .Message {
   text-align: left;
   font-size: 26px;
@@ -14,7 +16,7 @@ header {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
+  height: max-content;
   background: #323232;
   color: #ffffff;
 }
@@ -53,7 +55,6 @@ nav {
 .content {
   background-color: #ddd;
   padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the footer */
@@ -62,7 +63,7 @@ footer {
   color: #7a7c7c;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -71,6 +72,7 @@ footer {
 
 img {
   user-select: none;
+  text-align: center;
 }
 
 .login {
@@ -97,7 +99,7 @@ img {
 }
 
 .Sett-right {
-  color: #fffff;
+  color: #ffffff;
   float: right;
   position: relative;
   text-align: right;
@@ -135,4 +137,31 @@ img {
   text-align: right;
   text-decoration: none;
   float: right;
+}
+
+.memberzoneclass {
+  padding: 20px;
+  background: #1a1a1a;
+}
+
+.himembermsg {
+  text-align: center;
+  font-size: 35px;
+}
+.presentation-section {
+  text-align: center;
+
+}
+
+hr {
+  border: 1px solid;
+  border-color: #0eb82a;
+  width: 70%;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0eb82a;
 }
