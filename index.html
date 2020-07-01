@@ -5,29 +5,55 @@
     <link rel="stylesheet" href="css/style.css">
     <title>MDL de Sérignan</title>
   </head>
-  <body>
+  <body id="body">
+    <nav>
+      <div class="topnav">
+        <div class="mylinks">
+          <a href="#whoweare">Qui sommes nous ?</a>
+          <a href="#whereweare">Où sommes nous ?</a>
+          <a href="#ouractions">Nos actions</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="Sett-right">
+          <txt class="txt">Theme:</txt>
+          <button type="button" name="button" onclick="TransformToLight()" class="btn">Clair</button>
+          <button type="button" name="button" onclick="TransformToDark()" class="btn">Sombre</button>
+        </div>
+      </div>
+
+    </nav>
     <header>
       <img src="img/banner/banner.png">
     </header>
-    <nav>
-      <div class="topnav">
-        <a href="#whoweare">Qui sommes nous ?</a>
-        <a href="#whereweare">Où sommes nous ?</a>
-        <a href="#ouractions">Nos actions</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+
     <section>
       <div class="Message">
         Hi there !
       </div>
     </section>
+    <section id="JSsection">
+      <div class="" id="JSstatements">
+
+      </div>
+    </section>
     <footer>
-      <button onclick="Memberlogin()">Sign In</button> | <button onclick="MemberSignUp()"> Sign Up</button> <br>
+      <button onclick="window.loaction.href = 'login.php'" class="btn">Sign In</button> | <button onclick="MemberSignUp()" class="btn"> Sign Up</button> <br>
       &#xA9;MDL Lycée Marc Bloch 2020 - 2021 | All rights reserved<br>
     </footer>
   </body>
-  <div class="login">
-    Test
+  <div class="login" id="login-div">
+    <div id="login-divform" class="loginform">
+      <br>
+      <form id="loginform" action="../index.html">
+        <label for="usernameid">Username :</label>
+        <input type="text" name="usrnme" id="usernameid"><br>
+        <label for="passwordid">Password :</label>
+        <input type="password" name="password" id="passwordid">
+        <br>
+        <button class="btn sbmbtn" onclick="Memberlogin()">Se connecter</button>
+      </form>
+    </div>
   </div>
+  <script src="js/changestyle.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
 </html>

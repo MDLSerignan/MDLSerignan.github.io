@@ -24,19 +24,20 @@ nav {
 }
 
 
+
 /* Style the top navigation bar */
 .topnav {
   text-align: center;
   align-content: center;
   overflow: hidden;
-  background-color: #323232;
+  background: #096f6d;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -44,7 +45,7 @@ nav {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #1d1d1d;
+  background-color: #25a8d3;
   color: #ffffff;
 }
 
@@ -74,11 +75,54 @@ img {
 
 .login {
   width: 0;
-  height: 30%;
-  background: inherit;
-  padding: 20px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-left: -800px;
+  color: #ffffff;
 }
 
 .show {
   width: 100%;
+}
+
+.mylinks {
+  text-align: center;
+}
+
+.txt {
+  color: #ffffff;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.Sett-right {
+  color: #fffff;
+  float: right;
+  position: relative;
+  text-align: right;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.sbmbtn {
+  background: rgba(34, 129, 238, 0.945);
+  color: #ffffff;
+}
+.loginform {
+  font-size: 30px;
+  text-align:center;
+  background: #1d1d1d;
+  width: 60%;
+  max-height: 200px;
+  height: 50%;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
