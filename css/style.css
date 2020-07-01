@@ -114,8 +114,6 @@ img {
   color: #ffffff;
 }
 .loginform {
-  font-size: 30px;
-  text-align:center;
   background: #1d1d1d;
   width: 60%;
   max-height: 200px;
@@ -125,4 +123,16 @@ img {
   margin-right:auto;
   margin-top: auto;
   margin-bottom: auto;
+}
+.loginformtext {
+  font-size: 30px;
+  text-align:center;
+}
+
+.clsbtn {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: right;
+  text-decoration: none;
+  float: right;
 }
